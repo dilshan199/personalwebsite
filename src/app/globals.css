@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-foreground: var(--foreground);
+  --color-blue-lagoon: oklch(55.486% 0.09538 208);
+  --color-blue-lagoon-50: oklch(87.073% 0.13284 205.86);
+  --color-blue-lagoon-100: oklch(86.233% 0.13917 206.46);
+  --color-blue-lagoon-200: oklch(84.926% 0.1452 208.18);
+  --color-blue-lagoon-300: oklch(77.341% 0.13313 208.49);
+  --color-blue-lagoon-400: oklch(66.639% 0.11464 208.29);
+  --color-blue-lagoon-500: oklch(55.486% 0.09538 208);
+  --color-blue-lagoon-600: oklch(39.11% 0.06722 207.94);
+  --color-blue-lagoon-700: oklch(21.043% 0.0359 204.32);
+  --color-blue-lagoon-800: oklch(0% 0 none);
+  --color-blue-lagoon-900: oklch(0% 0 none);
+  --color-blue-lagoon-950: oklch(0% 0 none);
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
